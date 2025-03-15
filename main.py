@@ -24,8 +24,8 @@ class AntiSleepAssistant:
         
         # Default configuration settings
         self.config = {
-            'move_interval': (5, 15),    # Random interval between moves (seconds)
-            'move_range': (100, 100),     # Maximum movement range (pixels)
+            'move_interval': (2, 2),    # Random interval between moves (seconds)
+            'move_range': (1000, 1000),     # Maximum movement range (pixels)
             'autostart': False,           # Auto start with Windows
             'minimize_to_tray': True      # Minimize to system tray when closing
         }
